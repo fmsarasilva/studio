@@ -53,3 +53,14 @@ li:hover:after {
     font-family: 'Upbolters', sans-serif;
     box-shadow: 10px 10px black;
 }
+
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background: yellow;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    font-family: 'Upbolters', sans-serif;
+}
