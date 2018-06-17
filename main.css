@@ -54,6 +54,7 @@ header {
 li a {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    font-weight: 700;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
