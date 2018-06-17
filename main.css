@@ -468,9 +468,6 @@ li:hover:after {
      li a {
          font-size: 60px;
     }
-    
- #flexmenu{
-        display: hide; }
 
     
     .button {
@@ -484,7 +481,7 @@ li:hover:after {
         z-index: 10000;
     }
     
-    .button:after {
+    .button:before {
         position: absolute;
         top: 22px;
         right: 20px;
@@ -495,7 +492,7 @@ li:hover:after {
         border-bottom: 2px solid black;
         content: '';
     }
-    .button:before {
+    .button:after {
         transition: all .3s ease;
         position: absolute;
         top: 16px;
@@ -510,7 +507,7 @@ li:hover:after {
     .button.menu-opened{
       background: yellow;
     }
-    .button.menu-opened:after {
+    .button.menu-opened:before {
         transition: all .3s ease;    
         top: 23px;
         border: 0;
@@ -519,7 +516,7 @@ li:hover:after {
         background: black;
         transform: rotate(45deg);
     }
-    .button.menu-opened:before {
+    .button.menu-opened:after {
         top: 23px;
         background: black;
         width: 19px;
