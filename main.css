@@ -595,10 +595,6 @@ li:hover:after {
     font-size: 40px;
 }
     
-    .block {
-        margin-bottom: 40px;
-    }
-    
     .block form {
         width: 100%;
     }
@@ -624,7 +620,7 @@ li:hover:after {
 
 
     footer {
-        position: fixed;
+        position: relative;
         font-size: 40px;
     }
 }
