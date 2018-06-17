@@ -438,7 +438,7 @@ label {
 
 /* ----- RESPONSIVE ----- */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 920px) {
 
     .container {
         text-align: center;
