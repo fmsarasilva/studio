@@ -584,6 +584,11 @@ li:hover:after {
     border: 3px solid black;
 }
     
+    .submit-btn,
+.block form button {
+    border: none;
+}
+    
     .block form {
         width: 100%;
     }
