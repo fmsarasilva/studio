@@ -457,6 +457,7 @@ label {
 .nav ul li:nth-last-child(-n+2) {
    text-align: center;
     width: 100%;
+    font-size: 60px;
 }
     
     
