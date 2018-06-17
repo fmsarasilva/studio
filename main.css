@@ -619,6 +619,9 @@ li:hover:after {
     }
 
 
+    .columns {
+        display: grid;
+    }
 
 
     footer {
