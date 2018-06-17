@@ -595,6 +595,10 @@ li:hover:after {
     font-size: 40px;
 }
     
+    .block {
+        margin-bottom: 40px;
+    }
+    
     .block form {
         width: 100%;
     }
