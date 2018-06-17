@@ -609,6 +609,7 @@ li:hover:after {
     .welcome {
         width: 100%;
         margin: 0;
+        padding: 20px;
     }
 
     .columns-index {
