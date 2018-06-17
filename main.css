@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: 'Upbolters', sans-serif;
+    src: url('upbolters-webfont.woff2') format('woff2'),
+         url('upbolters-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     box-sizing: border-box;
 }
