@@ -8,10 +8,32 @@ html {
     padding: 0;
     margin: 0;
     width: 100%;
+    min-height: 100%;
+    font-family: 'Upbolters', sans-serif;
+    font-weight: normal;
 }
+
 
 header {
     border-top: 8px solid yellow;
+}
+
+.container {
+    width: 100%;
+}
+
+.nav ul li:nth-last-child(-n+2) {
+    float: right;
+}
+
+.nav {
+    width: 100%;
+    display: inline-block;
+}
+
+.fa:hover {
+    color: yellow;
+    cursor: pointer;
 }
 
 .nav li {
@@ -44,23 +66,513 @@ li:hover:after {
     background: yellow;
 }
 
-
 .welcome {
-    background: yellow;
+    float: left;
+    width: 50%;
     padding: 20px;
     margin: 80px;
     font-size: 40px;
     font-family: 'Upbolters', sans-serif;
-    box-shadow: 10px 10px black;
+    border-bottom: 8px solid yellow;
 }
 
+.title {
+    margin: 80px;
+    padding: 20px;
+    background: yellow;
+    width: 12%;
+    font-size: 18px;
+    font-family: 'Upbolters', sans-serif;
+}
+
+.columns-index {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+.column-index {
+    cursor: pointer;
+    background: yellow;
+    flex: 1;
+    margin: 40px 0;
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+
+}
+
+/* ABOUT ME */
+
+.about {
+    margin: 80px;
+    text-align: center;
+}
+
+.about p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 14px;
+    margin: 0 120px;
+}
+
+
+.about .fa {
+    font-size: 40px;
+}
+
+#bars {
+    margin: 40px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.bar {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.bar h3 {
+    font-size: 20px;
+
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.bar-circle {
+    display: block;
+    margin: 20px auto;
+}
+
+/* PORTEFÓLIO */
+
+.port-container {
+    margin: 0px 80px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#portfolio {
+    margin: 20px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    -webkit-column-width: 33.33333333333333%;
+    -moz-column-width: 33.33333333333333%;
+    column-width: 33.33333333333333%;
+}
+
+.tile {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.scale-anm {
+    transform: scale(1);
+}
+
+.tile img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: yellow;
+    border: none;
+    padding: 20px;
+    font-family: 'Upbolters', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    margin: 0;
+    height: auto;
+    vertical-align: middle;
+    -webkit-appearance: none;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background: black;
+    color: yellow;
+}
+
+.btn:focus {
+    outline: none;
+    border-color: var(--darken-2);
+    box-shadow: 0 0 0 3px var(--darken-3);
+}
+
+::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+/* FOOTER */
 
 footer {
     width: 100%;
     padding: 20px;
     background: yellow;
     bottom: 0;
+    left: 0;
     position: fixed;
     text-align: center;
     font-family: 'Upbolters', sans-serif;
+}
+
+/* HOMEPAGE BUTTONS */
+
+.flex-grid-thirds {
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid-thirds .col {
+    width: 30%;
+    padding: 20px;
+    background: yellow;
+    text-align: center;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.project {
+    margin: 80px;
+}
+
+.project img {
+    width: 100%;
+}
+
+
+h2 {
+    margin: 60px;
+}
+
+
+/* ABOUT */
+
+.parallax {
+    /* The image used */
+    background-image: url("img/sara.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax-maps {
+    /* The image used */
+    background-image: url("img/maps.png");
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.wrapper p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 13px;
+}
+
+.column .fa {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.column {
+    flex: 1;
+    margin: 2px;
+    padding: 20px;
+    &:first-child {
+        margin-left: 0;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+
+}
+
+/* CONTACT FORM */
+
+h2 .fa {
+    font-size: 20px;
+}
+
+.block {
+    margin: 80px;
+}
+
+.block p {
+    font-family: 'Catamaran', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.contact {
+    width: 45%;
+    margin-right: 20px;
+    float: right;
+}
+
+.block form {
+    width: 50%;
+    float: left;
+}
+
+.block form p {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Upbolters', sans-serif;
+}
+
+label {
+    display: inline-block;
+    margin: 10px 0px;
+    color: black;
+}
+
+.submit-btn,
+.block form button {
+    cursor: pointer;
+}
+
+.block form button,
+.block form input,
+.block form textarea {
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+    height: 30px;
+    border: 3px solid black;
+}
+
+.block form textarea {
+    resize: none;
+    height: 60px;
+}
+
+.block form button {
+    font-family: 'Upbolters', sans-serif;
+    background: yellow;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.block form button:hover,
+.block form button:focus {
+    background: black;
+    border: 0;
+    color: yellow;
+    transition: background-color 1s ease-out;
+}
+
+/* ----- RESPONSIVE ----- */
+
+@media only screen and (max-width: 1200px) {
+
+    .container {
+        text-align: center;
+    }
+    
+    .nav ul {
+        padding: 0;
+    }
+    
+    .nav li {
+        display: block;
+        padding: 10px;
+    }
+
+
+.nav ul li:nth-last-child(-n+2) {
+   text-align: center;
+    width: 100%;
+}
+    
+    
+li:hover:after {
+    width: 20%;
+    background: yellow;
+}
+    
+    .button {
+        background: yellow;
+        width: 100%;
+        height: 60px;
+        position: relative;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        z-index: 10000;
+    }
+    
+    .button:after {
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        display: block;
+        height: 4px;
+        width: 20px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        content: '';
+    }
+    .button:before {
+        transition: all .3s ease;
+        position: absolute;
+        top: 16px;
+        right: 20px;
+        display: block;
+        height: 2px;
+        width: 20px;
+        background: black;
+        content: '';
+    }
+  /* Turn it into an X when open */
+    .button.menu-opened{
+      background: yellow;
+    }
+    .button.menu-opened:after {
+        transition: all .3s ease;    
+        top: 23px;
+        border: 0;
+        height: 2px;
+        width: 19px;
+        background: black;
+        transform: rotate(45deg);
+    }
+    .button.menu-opened:before {
+        top: 23px;
+        background: black;
+        width: 19px;
+        transform: rotate(-45deg);
+    }
+  
+
+    .about {
+        margin: 20px;
+    }
+
+    .about p {
+        margin: 20px;
+    }
+
+
+    .bar {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .port-container {
+        display: block;
+        margin: 20px;
+    }
+
+
+    #portfolio {
+        margin: 20px 0;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .block {
+        margin: 40px;
+        display: block;
+    }
+
+    .contact {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .block form {
+        width: 100%;
+    }
+
+    .flex-grid,
+    .flex-grid-thirds {
+        display: block;
+    }
+
+    
+    .welcome {
+        width: 100%;
+        margin: 0;
+    }
+
+    .columns-index {
+        width: 100%;
+        display: grid;
+        margin: 20px 0;
+    }
+
+
+
+
+    footer {
+        position: fixed;
+    }
 }
