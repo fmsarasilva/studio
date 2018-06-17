@@ -78,8 +78,10 @@ li:hover:after {
 
 .welcome {
     float: left;
+    text-transform: uppercase;
+    font-weight: 800;
     width: 50%;
-    padding: 20px;
+    padding: 10px;
     margin: 80px;
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
@@ -110,7 +112,7 @@ li:hover:after {
     cursor: pointer;
     background: yellow;
     flex: 1;
-    margin: 40px 0;
+    margin: 50px 0px 10px 0;
     &:first-child {
         margin-left: 0;
     }
@@ -202,6 +204,7 @@ li:hover:after {
 }
 
 .btn {
+    text-transform: uppercase;
     background: yellow;
     border: none;
     padding: 20px;
@@ -386,6 +389,8 @@ h2 .fa {
 }
 
 label {
+    text-transform: uppercase;
+    font-size: 16px;
     display: inline-block;
     margin: 10px 0px;
     color: black;
@@ -576,7 +581,6 @@ li:hover:after {
     border: 3px solid black;
 }
     
-
     .block form {
         width: 100%;
     }
