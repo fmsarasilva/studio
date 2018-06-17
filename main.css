@@ -2,14 +2,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'upboltersregular';
-    src: url('upbolters-webfont.woff2') format('woff2'),
-         url('upbolters-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 body,
 html {
@@ -17,8 +9,8 @@ html {
     margin: 0;
     width: 100%;
     min-height: 100%;
+    font-family: 'Oswald', sans-serif;
     font-weight: normal;
-    font-family: 'Upbolters', sans-serif;
 }
 
 
@@ -50,7 +42,7 @@ header {
 }
 
 li a {
-    font-family: 'Upbolters', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     color: black;
     text-transform: uppercase;
@@ -80,7 +72,7 @@ li:hover:after {
     padding: 20px;
     margin: 80px;
     font-size: 40px;
-    font-family: 'Upbolters', sans-serif;
+    font-family: 'Oswald', sans-serif;
     border-bottom: 8px solid yellow;
 }
 
@@ -90,7 +82,7 @@ li:hover:after {
     background: yellow;
     width: 12%;
     font-size: 18px;
-    font-family: 'Upbolters', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .columns-index {
@@ -203,7 +195,7 @@ li:hover:after {
     background: yellow;
     border: none;
     padding: 20px;
-    font-family: 'Upbolters', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     cursor: pointer;
     display: inline-block;
@@ -242,7 +234,7 @@ footer {
     left: 0;
     position: fixed;
     text-align: center;
-    font-family: 'Upbolters', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* HOMEPAGE BUTTONS */
@@ -272,6 +264,8 @@ footer {
 
 
 h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
     margin: 60px;
 }
 
@@ -378,7 +372,7 @@ h2 .fa {
 .block form p {
     margin: 0;
     text-transform: uppercase;
-    font-family: 'Upbolters', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 label {
@@ -407,7 +401,7 @@ label {
 }
 
 .block form button {
-    font-family: 'Upbolters', sans-serif;
+    font-family: 'Oswald', sans-serif;
     background: yellow;
     border: none;
     color: black;
@@ -548,13 +542,30 @@ li:hover:after {
         display: block;
     }
 
+    label {
+        font-size: 40px;
+    }
+    
     .contact {
         width: 100%;
         text-align: center;
+        font-size: 40px;
         margin-top: 20px;
         margin-right: 0;
         margin-bottom: 20px;
     }
+    
+    
+    
+.block form button,
+.block form input,
+.block form textarea {
+    font-family: 'Catamaran', sans-serif;
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+}
+    
 
     .block form {
         width: 100%;
@@ -584,3 +595,4 @@ li:hover:after {
         position: fixed;
     }
 }
+
