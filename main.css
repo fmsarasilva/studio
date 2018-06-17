@@ -365,6 +365,7 @@ h2 .fa {
 
 .block {
     margin: 80px;
+    position: absolute;
 }
 
 .block p {
@@ -547,7 +548,7 @@ li:hover:after {
 
 
     #portfolio {
-        margin: 40px;
+         margin: 20px 0;
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
