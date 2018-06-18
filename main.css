@@ -2,7 +2,6 @@
 I MADE THIS IN ONE AFTERNOON, SO, DON'T MIND THE MESS! 
 SARA SILVA, JUNE 2018 */
 
-
 /* BODY STRUCTURE */
 
 * {
@@ -152,7 +151,6 @@ li:hover:after {
 }
 
 /* ABOUT PAGE */
-
 
 .parallax {
     /* The image used */
@@ -603,7 +601,7 @@ label {
         background: black;
         transform: rotate(45deg);
     }
-    
+
     .button.menu-opened:before {
         top: 23px;
         background: black;
@@ -725,3 +723,4 @@ label {
 /* ENDS HERE --- 
 SPECIAL THANKS TO STACKOVERFLOW FOR ALWAYS SAVING ME <3
 AND, OFC, W3SCHOOLS AND LITTLESNIPPETS --- */
+
