@@ -616,6 +616,15 @@ li:hover:after {
         display: grid;
     }
 
+    
+    .bar h3 {
+        font-size: 40px;
+    }
+    
+    .bar-circle {
+        width: 30%;
+        margin: 20px auto;
+}
 
     footer {
         position: fixed;
