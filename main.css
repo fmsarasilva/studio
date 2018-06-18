@@ -691,21 +691,21 @@ label {
     }
 
     .index {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .welcome {
         width: 100%;
         margin: 0;
         padding: 40px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .columns-index {
         width: 100%;
         display: grid;
         margin: 20px 0;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .columns {
@@ -733,7 +733,7 @@ label {
 
     footer {
         position: relative;
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
