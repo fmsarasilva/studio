@@ -80,16 +80,21 @@ li:hover:after {
 
 /* HOMEPAGE */
 
+.index {
+    margin: 60px;
+    display: grid;
+}
+
 .welcome {
     float: left;
     text-transform: uppercase;
     font-weight: 800;
-    width: 50%;
-    padding: 10px;
-    margin: 80px;
-    font-size: 40px;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    font-size: 28px;
     font-family: 'Oswald', sans-serif;
-    border-bottom: 8px solid #f4ead9;
+    background:  #f4ead9;
 }
 
 .title {
@@ -116,7 +121,7 @@ li:hover:after {
     cursor: pointer;
     background: #f4ead9;
     flex: 1;
-    margin: 50px 0px 10px 0;
+    margin: 20px;
     &:first-child {
         margin-left: 0;
     }
@@ -125,7 +130,6 @@ li:hover:after {
     }
 
 }
-
 
 .flex-grid-thirds {
     margin: 80px;
