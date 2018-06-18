@@ -15,7 +15,7 @@ html {
 
 
 header {
-    border-top: 8px solid yellow;
+    border-top: 8px solid #f4ead9;
 }
 
 .container {
@@ -32,7 +32,7 @@ header {
 }
 
 .fa:hover {
-    color: yellow;
+    color: #f4ead9;
     cursor: pointer;
 }
 
@@ -63,7 +63,7 @@ li:after {
 
 li:hover:after {
     width: 100%;
-    background: yellow;
+    background: #f4ead9;
 }
 
 .welcome {
@@ -75,13 +75,13 @@ li:hover:after {
     margin: 80px;
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
-    border-bottom: 8px solid yellow;
+    border-bottom: 8px solid #f4ead9;
 }
 
 .title {
     margin: 80px;
     padding: 20px;
-    background: yellow;
+    background: #f4ead9;
     width: 12%;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
@@ -100,7 +100,7 @@ li:hover:after {
 
 .column-index {
     cursor: pointer;
-    background: yellow;
+    background: #f4ead9;
     flex: 1;
     margin: 50px 0px 10px 0;
     &:first-child {
@@ -195,7 +195,7 @@ li:hover:after {
 
 .btn {
     text-transform: uppercase;
-    background: yellow;
+    background: #f4ead9;
     border: none;
     padding: 20px;
     font-family: 'Oswald', sans-serif;
@@ -212,7 +212,7 @@ li:hover:after {
 .btn:hover {
     text-decoration: none;
     background: black;
-    color: yellow;
+    color: #f4ead9;
 }
 
 .btn:focus {
@@ -229,15 +229,18 @@ li:hover:after {
 /* FOOTER */
 
 footer {
-    width: 100%;
     padding: 20px;
-    background: yellow;
-    position: relative;
+    background: #f4ead9;
+    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+}
+
+.another footer {
+    position: relative;
 }
 
 /* HOMEPAGE BUTTONS */
@@ -251,7 +254,7 @@ footer {
 .flex-grid-thirds .col {
     width: 30%;
     padding: 20px;
-    background: yellow;
+    background: #f4ead9;
     text-align: center;
     font-size: 40px;
     vertical-align: middle;
@@ -409,7 +412,7 @@ label {
 
 .block form button {
     font-family: 'Oswald', sans-serif;
-    background: yellow;
+    background: #f4ead9;
     border: none;
     color: black;
     text-transform: uppercase;
@@ -422,7 +425,7 @@ label {
 .block form button:focus {
     background: black;
     border: 0;
-    color: yellow;
+    color: #f4ead9;
     transition: background-color 1s ease-out;
 }
 
@@ -453,7 +456,7 @@ label {
     
 li:hover:after {
     width: 20%;
-    background: yellow;
+    background: #f4ead9;
 }
     
      li a {
@@ -462,7 +465,7 @@ li:hover:after {
 
     
     .button {
-        background: yellow;
+        background: #f4ead9;
         width: 100%;
         height: 140px;
         position: relative;
@@ -496,7 +499,7 @@ li:hover:after {
     }
   /* Turn it into an X when open */
     .button.menu-opened{
-      background: yellow;
+      background: #f4ead9;
     }
     .button.menu-opened:after {
         transition: all .3s ease;    
