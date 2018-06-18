@@ -712,6 +712,15 @@ label {
         width: 30%;
         margin: 20px auto;
     }
+    
+    figcaption p,
+    figcaption h2 {
+        font-size: 40px;
+    }
+
+    .wrapper a {
+        font-size: 40px;
+    }
 
     footer {
         position: relative;
