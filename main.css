@@ -1,13 +1,3 @@
-
-@font-face {
-    font-family: 'Upbolters', sans-serif;
-    src: url('upbolters-webfont.woff2') format('woff2'),
-         url('upbolters-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 * {
     box-sizing: border-box;
 }
@@ -15,13 +5,13 @@
 
 body,
 html {
+    overflow-y: scroll;
     padding: 0;
     margin: 0;
     width: 100%;
     min-height: 100%;
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 
@@ -33,7 +23,7 @@ header {
     width: 100%;
 }
 
-.nav ul li:nth-last-child(-n+2) {
+.nav ul li:nth-last-child(-n + 2) {
     float: right;
 }
 
@@ -55,7 +45,6 @@ header {
 li a {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    font-weight: 700;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
@@ -238,16 +227,16 @@ li:hover:after {
     padding: 0;
 }
 
-
 /* FOOTER */
 
 footer {
     width: 100%;
     padding: 20px;
     background: yellow;
+    position: relative;
+    right: 0;
     bottom: 0;
     left: 0;
-    position: fixed;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
@@ -365,7 +354,8 @@ h2 .fa {
 
 .block {
     margin: 80px;
-    position: absolute;
+    position: static;
+    overflow: hidden;
 }
 
 .block p {
@@ -630,4 +620,3 @@ li:hover:after {
         font-size: 40px;
     }
 }
-
