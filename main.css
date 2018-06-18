@@ -690,17 +690,22 @@ label {
         display: block;
     }
 
+    .index {
+        margin-top: 40px;
+    }
 
     .welcome {
         width: 100%;
         margin: 0;
         padding: 40px;
+        font-size: 20px;
     }
 
     .columns-index {
         width: 100%;
         display: grid;
         margin: 20px 0;
+        font-size: 20px;
     }
 
     .columns {
