@@ -10,6 +10,7 @@ SARA SILVA, JUNE 2018 */
 
 body,
 html {
+    border: 
     padding: 0;
     margin: 0;
     width: 100%;
@@ -27,7 +28,7 @@ h2 {
 /* MENU */
 
 header {
-    border-top: 8px solid #f4ead9;
+   background-color: #F7EEE5;
 }
 
 .container {
@@ -39,6 +40,7 @@ header {
 }
 
 .nav {
+    
     width: 100%;
     display: inline-block;
 }
@@ -55,30 +57,180 @@ header {
 
 li a {
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    color: black;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #DFA88B;
     text-transform: uppercase;
     text-decoration: none;
     list-style: none;
+     transform: translateX(-100%);
+    animation: byBottom 1s ease both;
+    font-weight: 600;
+    letter-spacing: 0.25vw;
 }
-
 
 li:after {
     content: '';
     display: block;
     margin: auto;
-    height: 6px;
+    height: 2px;
     width: 0px;
     background: transparent;
     transition: width .5s ease, background-color .5s ease;
 }
 
 li:hover:after {
-    width: 100%;
-    background: #f4ead9;
+    width: 50%;
+    background: #DFA88B;
 }
 
 /* HOMEPAGE */
+
+ section {
+    background-color: #F7EEE5;
+    height: 100vh;
+    display: flex;
+     text-align: center;
+  }
+
+  section .title {
+    width: 100%;
+    background-color: #F7EEE5;
+    align-self: center;
+    transform: translateY(-50px);
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+
+  section .title span {
+    display: inline-block;
+    font-size: 5vw;
+    color: #DFA88B;
+    width: 100%;
+    text-transform: uppercase;
+    transform: translateX(-100%);
+    animation: byBottom 1s ease both;
+    font-weight: 600;
+    letter-spacing: 0.25vw;
+  }
+  section .title span:last-child {
+    font-size: 1rem;
+    animation: byBottom 1s 0.25s ease both;
+  }
+  section .title span a {
+    position: relative;
+    display: inline-block;
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: #F7CF95;
+  }
+  section .title span a::after {
+    content: "";
+    height: 2px;
+    background-color:  #F7CF95;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    animation: linkAfter 0.5s 1s ease both;
+  }
+  @-moz-keyframes pop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @-webkit-keyframes pop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @-o-keyframes pop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes pop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @-moz-keyframes byBottom {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @-webkit-keyframes byBottom {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @-o-keyframes byBottom {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes byBottom {
+    0% {
+      transform: translateY(150%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @-moz-keyframes linkAfter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 30px;
+    }
+  }
+  @-webkit-keyframes linkAfter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 30px;
+    }
+  }
+  @-o-keyframes linkAfter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 30px;
+    }
+  }
+  @keyframes linkAfter {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 30px;
+    }
+  }
 
 .index {
     margin: 0;
@@ -93,7 +245,6 @@ li:hover:after {
     padding: 40px;
     text-align: center;
     font-size: 28px;
-    font-family: 'Oswald', sans-serif;
     background:  #f4ead9;
 }
 
@@ -452,13 +603,23 @@ figure.snip0016:hover figcaption::before {
 
 footer {
     padding: 20px;
-    background: #f4ead9;
+    background-color: #F7EEE5;
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+     font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #DFA88B;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+     transform: translateX(-100%);
+    animation: byBottom 1s ease both;
+    font-weight: 600;
+    letter-spacing: 0.25vw;
 }
 
 .another footer {
