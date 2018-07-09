@@ -358,7 +358,7 @@ section .title span a::after {
 .wrapper p {
     font-family: 'Catamaran', sans-serif;
     font-size: 13px;
-    color: lightslategrey;
+    color: black;
 }
 
 .column .fa {
@@ -393,7 +393,7 @@ section .title span a::after {
 }
 
 .about p {
-    color: lightslategrey;
+    color: black;
     font-family: 'Catamaran', sans-serif;
     font-size: 14px;
     margin: 0 120px;
