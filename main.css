@@ -20,6 +20,7 @@ html {
 }
 
 h2 {
+    color: #DFA88B;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 60px;
@@ -46,15 +47,13 @@ header {
 }
 
 .fa:hover {
-    color:  #DFA88B;
+    color:  #F7CF95;
     cursor: pointer;
 }
 
 .nav li {
-     transform: translateY(-50px);
     margin: 0 auto;
     overflow: hidden;
-    animation: byBottom 1s ease both;
     padding: 20px;
     display: inline-block;
 }
@@ -345,6 +344,10 @@ section .title span a::after {
     background-size: cover;
 }
 
+.fa {
+    color: #DFA88B;
+}
+
 .wrapper {
     width: 95%;
     margin: 20px auto;
@@ -354,6 +357,7 @@ section .title span a::after {
 .wrapper p {
     font-family: 'Catamaran', sans-serif;
     font-size: 13px;
+    color: lightslategrey;
 }
 
 .column .fa {
@@ -388,6 +392,7 @@ section .title span a::after {
 }
 
 .about p {
+     color: lightslategrey;
     font-family: 'Catamaran', sans-serif;
     font-size: 14px;
     margin: 0 120px;
@@ -412,7 +417,7 @@ section .title span a::after {
 
 .bar h3 {
     font-size: 20px;
-
+    color: #DFA88B;
     margin: 0;
     text-transform: uppercase;
 }
@@ -599,7 +604,7 @@ figure.snip0016:hover figcaption::before {
 .btn:hover {
     text-decoration: none;
     background: #F7CF95;
-    color: #f4ead9;
+    color: #DFA88B;
 }
 
 .btn:focus {
@@ -670,8 +675,17 @@ h2 .fa {
 
 .block form p {
     margin: 0;
+     font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #DFA88B;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    transform: translateX(-100%);
+    animation: byBottom 1s ease both;
+    font-weight: 600;
+    letter-spacing: 0.25vw
 }
 
 label {
@@ -704,20 +718,27 @@ label {
 
 .block form button {
     font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
     background: #DFA88B;
+    color: #F7CF95;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    transform: translateX(-100%);
+    animation: byBottom 1s ease both;
+    font-weight: 600;
+    letter-spacing: 0.25vw;
     border: none;
     color: black;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 2px;
-    font-weight: 400;
 }
 
 .block form button:hover,
 .block form button:focus {
     background: black;
     border: 0;
-    color: #f4ead9;
+    background: #F7CF95;
+    color: #DFA88B;
     transition: background-color 1s ease-out;
 }
 
@@ -916,3 +937,4 @@ label {
 /* ENDS HERE --- 
 SPECIAL THANKS TO STACKOVERFLOW FOR ALWAYS SAVING ME <3
 AND, OFC, W3SCHOOLS AND LITTLESNIPPETS --- */
+
